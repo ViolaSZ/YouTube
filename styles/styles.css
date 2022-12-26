@@ -1,0 +1,1247 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400&display=swap');
+
+li{
+    list-style: none;
+    display: flex;
+}
+
+span, h4, p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 16px;
+}
+
+html{
+    font-size: 16px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.asideTextLibrary{
+    font-size: 16.5px;
+    margin-left: 0.4em;
+    padding-top: 0.2rem;
+}
+
+.asideImgLibrary{
+    margin-top: 0.25rem;
+}
+
+.asideTextHistory{
+    font-size: 16.5px;
+    margin-left: 0.4em;
+    padding-top: 0.2rem;
+}
+
+.asideImgHistory{
+    margin-top: 0.17rem;
+}
+
+.asideTextWatchLater{
+    font-size: 16.5px;
+    margin-left: 0.4em;
+    padding-top: 0.2rem;
+}
+
+.asideImgWatchLater{
+    margin-top: 0.33rem;
+    margin-left: 0.1rem;
+}
+
+.asideTextFavourites{
+    font-size: 16.5px;
+    margin-left: 0.4em;
+    padding-top: 0.2rem;
+}
+
+.asideImgFavourites{
+    margin-top: 0.1rem;
+}
+
+.asideTextLikedVideos{
+    font-size: 16.5px;
+    margin-left: 0.45em;
+    padding-top: 0.2rem;
+}
+
+.asideImgLikedVideos{
+    margin-top: 0.1rem;
+}
+
+.asideTextMusic{
+    font-size: 16.5px;
+    margin-left: 0.45em;
+    padding-top: 0.2rem;
+}
+
+.asideImgMusic{
+    margin-top: 0.15rem;
+}
+
+.asideTextGames{
+    font-size: 16.5px;
+    margin-left: 0.35em;
+    padding-top: 0.17rem;
+}
+
+.asideImgGames{
+    margin-top: 0.3rem;
+    margin-left: -0.1rem;
+}
+
+.asideTextSubscriptions{
+    font-size: 16.5px;
+    margin-left: 0.45em;
+    padding-top: 0.1rem;
+}
+
+.asideImgSubscriptions{
+    margin-top: 0.1rem;
+}
+
+.asideTextShowMore{
+    font-size: 16.5px;
+    margin-left: 0.5em;
+    padding-top: 0.2rem;
+}
+
+.asideImgShowMore{
+    margin-top: 0.55rem;
+    margin-left: 0.2rem;
+}
+
+.asideText{
+    font-size: 16.5px;
+    margin-left: 0.47em;
+    padding-top: 0.1rem;
+}
+
+.asideImg{
+    margin-bottom: 0.5rem;
+}
+.asideImgTrending{
+    margin-left: 0.1rem;
+}
+
+.body{
+    display: flex;
+    overflow-x: hidden;
+    justify-content: space-between;
+}
+
+.asideMenu{
+    font-family: 'Mulish', sans-serif;
+    display: flex;
+    flex-direction: column;
+    color: #898989;
+}
+
+.HomeText{
+    font-size: 16.5px;
+    color: #FF0000;
+    margin-bottom: 0.5rem;
+    margin-left: 0.35em;
+}
+
+.asideMenu li{
+    margin-bottom: 25px;
+}
+
+.asideMenu li img{
+    margin-right: 7px;
+}
+
+.asideDiv{
+    width: 16.5%;
+    margin-top: 2rem;
+    margin-left: -1rem;
+}
+
+.videosDiv{
+    width: 83.5%;
+}
+
+.videoName{
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.videoName4{
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.videoNameReccomended{
+    font-weight: bold;
+    letter-spacing: 0.3px;
+}
+
+.videoReccomended{
+    display: inline-block;
+    margin-right: 2.5rem;
+    margin-top: -0.25rem;
+}
+
+.video{
+    display: inline-block;
+    margin-right: 2.5rem;
+    margin-top: 0.05rem;
+}
+
+.video:first-child{
+    margin-top: 0.25rem;
+    width: 250px;
+}
+
+.video2{
+    display: inline-block;
+    margin-right: 2.3rem;
+    margin-top: 0.22rem;
+}
+
+.menu{
+    display: flex;
+    left: -2rem;
+    align-items: center;
+}
+
+.widthClassReccomended{
+    width: auto;
+    position: relative;
+    margin-bottom: 0.38rem;
+}
+
+.widthClass{
+    width: auto;
+    position: relative;
+}
+
+.widthClass2{
+    width: auto;
+    position: relative;
+}
+
+.time{
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 12px;
+    position: absolute;
+    left: 77.3%;
+    right: 4%;
+    top: 76%;
+    bottom: 9%;
+}
+
+.timeNumber{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    left: 20%;
+    top: -12px;
+    right: 6%;
+}
+
+.textViews{
+    width: 70%;
+    margin-top: 0.1rem;
+}
+
+.textViewsReccomended{
+    width: 70%;
+    margin-top: 0.2rem;
+}
+
+.time2{
+    background-color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 12px;
+    position: absolute;
+    left: 30.2rem;
+    right: 0.6rem;
+    top: 13.55rem;
+    bottom: 0.85rem;
+    }
+
+.timeNumber2{
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    position: absolute;
+    left: 0.55rem;
+    bottom: -9px;
+}
+
+ .search{
+    background: #EBEBEB;
+    mix-blend-mode: normal;
+    opacity: 0.3;
+    border-radius: 22px;
+    width: 62.5%;
+    height: 2.4rem;
+}
+
+.searchDiv{
+    position: relative;
+    display: flex;
+    width: 70%;
+    align-items: center;
+    margin-top: -0.4rem;
+}
+
+.leftMenu{
+    margin-right: 20px;
+}
+
+.searchImg{
+    position: absolute;
+    left: 49.3rem;
+    top: 0.9rem;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    margin-top: 1.4rem;
+    margin-left: 1.5rem;
+    justify-content: space-between;
+}
+
+.youTubeIconBlock{
+    margin-left: 0.5rem;
+}
+
+.asideSetting{
+    margin-top: 2.9rem;
+    margin-left: 0.35rem;
+}
+
+.asideSettingImg{
+    margin-top: 2.9rem;
+    margin-left: 0.1rem;
+}
+
+.name{
+    margin-left: 2.4rem;
+    margin-top: 1.05rem;
+    color: #19202C;
+    letter-spacing: 0.02rem;
+    font-size: 18px;
+}
+
+.nameReccomended{
+    margin-top: 3rem;
+    color: #19202C;
+    letter-spacing: 0.02rem;
+    font-size: 26px;
+}
+
+.asideLi{
+    margin-top: 2rem;
+}
+
+.asideLi2{
+    margin-top: 2.1rem;
+}
+
+.asideUserAvatar{
+    margin-top: -0.6rem;
+    margin-left: -0.1rem;
+}
+
+.asideUserName{
+    margin-top: -0.4rem;
+    margin-left: 0.1rem;
+}
+
+.accountName{
+    width: 10rem;
+    font-size: 26px;
+    margin-left: 1.25rem;
+    margin-top: 3.5rem;
+    letter-spacing: 0.03rem;
+}
+
+.accountAvatar{
+    width: 21%;
+    height: 70%;
+    margin-top: 1.8rem;
+    margin-left: 0.5rem;
+}
+
+.videoContent{
+    margin-left: -4rem;
+}
+
+.server{
+    display: flex;
+    flex-direction: row;
+    margin-left: -0.5rem;
+}
+
+.foodDrinkName{
+    margin-top: 2.85rem;
+    width: 22%;
+    height: 45%;
+}
+
+.blockName{
+    display: flex;
+    width: 70%;
+}
+
+.nameFoodDrink{
+    margin-left: 0.75em;
+    margin-top: 3.6rem;
+    color: #19202C;
+    letter-spacing: 0.03rem;
+    font-size: 26px;
+    white-space: nowrap;
+}
+
+.recommended{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+padding-top: 40px;
+margin-left: 15px;
+margin-top: 2px;
+color: #C2C2C2;
+}
+
+.recommendedFood{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 4.2rem;
+    margin-left: 1.3em;
+    color: #C2C2C2;
+}
+
+.reccomendedChannel{
+    white-space: nowrap;
+}
+
+.narrow{
+    display: flex;
+    right: 0;
+    margin-top: 4.5rem;
+    margin-right: 7.5rem;
+}
+
+.narrow2{
+    display: flex;
+    right: 0;
+    margin-top: 3.3rem;
+    margin-right: 7.5rem;;
+}
+
+.narrow div,.narrow2 div{
+    margin-left: 10px;
+}
+
+.videoImg{
+    width: 100%;
+}
+
+.recommend{
+    margin-right: 1.9rem;
+    margin-top: -0.45rem;
+}
+
+.bodyVideo{
+    display: table-row;
+    overflow-x: hidden;
+    width: 100%;
+    white-space: nowrap;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    margin-right: 2.6rem;
+}
+
+.rightMenuFirst{
+    margin-right: 4.1rem;
+    margin-left: -1rem;
+}
+
+.rightMenuSecond{
+    margin-right: 4.1rem;
+    margin-left: -1rem;
+}
+
+.rightMenuThird{
+    margin-right: 2.8rem;
+    margin-left: -1rem;
+    margin-top: -0.5rem;
+}
+
+.videoText{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+    letter-spacing: 0.6px;
+}
+
+.videoText2{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}
+
+.videoText3{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+    letter-spacing: 1px;
+    margin-left: 0.25rem;
+}
+
+.videoTextReccomended{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}
+
+.videoText2Reccomended{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+}
+
+.videoText3Reccomended{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+    letter-spacing: 1px;
+    margin-left: 0.25rem;
+}
+
+.text{
+    margin-top: 0.4rem;
+}
+
+.textFood{
+    margin-top: 0.4rem;
+}
+
+.text2{
+    margin-top: 0.4rem;
+}
+
+.videoTextName{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #C2C2C2;
+    letter-spacing: 0.3px;
+}
+
+.textRight{
+    margin-top: 0.12rem;
+    margin-left: 0.7rem;
+    width: 10%;
+}
+
+.textRightFood{
+    margin-top: 0.1rem;
+    margin-left: -0.1rem;
+    width: 10%;
+}
+
+.textRightReccomended{
+    margin-top: 0.2rem;
+    margin-left: 5.3rem;
+    width: 10%;
+}
+
+.textRightReccomendedSecond{
+    margin-top: 0.2rem;
+    margin-left: 4.3rem;
+    width: 10%;
+}
+
+.textRightReccomendedThird{
+    margin-top: 0.2rem;
+    margin-left: 6.4rem;
+    width: 10%;
+}
+
+.profileInformation{
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+    justify-content: space-between;
+}
+
+.profileNavigation{
+    display: flex;
+    padding-left: 0;
+}
+
+.profileSubscribes{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+margin-top: 2px;
+margin-left: 15px;
+
+color: #C2C2C2;
+}
+
+.profileName{
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+margin-top: 10px;
+margin-left: 15px;
+margin-bottom: 0px;
+
+color: #19202C;
+}
+
+.profileVideoName{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 34px;    
+    width: 70%;
+    color: #19202C; 
+    margin-left: 20px; 
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.profileVideoText{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.6; 
+    margin-top: 5px;
+}
+
+.profileInformationRecommended{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 23px;
+margin-bottom: 5px;
+color: #19202C;
+}
+
+.upperText{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.profileInformationAside{
+    width: 20%;
+}
+
+.divForImg{
+    width: 90%;
+}
+
+.profileVideo{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.profileVideoViews{
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #C2C2C2;
+margin-left: 20px;
+}
+
+.profileNavigation li{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 23px;
+margin-right: 40px;
+margin-bottom: 20px;
+color: #000000;
+}
+
+.profileNavigation .home{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 23px;
+    color: #FF0000;
+    text-decoration: underline;
+}
+
+.divProfileVideoViews{
+    margin-top: 15px;
+}
+
+.recommendedChannelText{
+
+font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #C2C2C2;
+
+}
+
+.videoBlock{
+    width: 85%;
+}
+
+.videoView{
+    width: 75%;
+    margin: 10px 30px 5px 30px;
+}
+
+.videoName3{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+margin-top: 8px;
+margin-bottom: 5px;
+color: #192646;
+}
+
+.videoParametrs{
+    display: flex;
+    width: 85%;
+    justify-content: end;
+}
+
+.videoParametrs img{
+    margin-left: 20px;
+}
+
+.marginHr{
+    margin-top: 10px;
+}
+
+.videoCharasteristic{
+    display: flex;
+    justify-content: space-between;
+}
+
+.videoViews3{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #C2C2C2;
+}
+
+.channelName{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+color: #19202C;
+margin-bottom: 5px;
+}
+
+.videoDescription{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.6;
+}
+
+.videoDescriptionDiv{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.publishedText{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+color: #C2C2C2;
+}
+
+.showMoreText{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 25px;
+color: #C2C2C2;
+}
+
+.nextText{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+margin-bottom: 0px;
+color: #19202C;
+}
+
+.autoplayText{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 20px;
+letter-spacing: 1px;
+
+color: #19202C;
+}
+
+.asideVideoName{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 33px;
+color: #19202C;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+.asideVideoView{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+color: #C2C2C2;
+}
+
+.asideVideoChannel{
+    font-family: 'Mulish';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 23px;
+
+text-align: right;
+
+color: #C2C2C2;
+}
+
+.channelAvatar{
+    width: 20%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.videoCharasteristic h4{
+    margin-top: 10px;
+}
+
+.autoplay{
+    display: flex;
+    margin-top: 20px;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.asideVideo{
+    margin-top: 10px;
+}
+
+.asideVideosDiv{
+    margin-right: 20px;
+}
+
+footer{
+    display: none;
+}
+
+@media screen and (max-width: 640px) {
+    .hideBlock {display: none; }
+    .menuImg{
+        height: 5.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .header{
+        height: 5rem;
+    }
+
+    .leftMenu{
+        margin-top: -1rem;
+        margin-left: -0.1rem;
+    }
+
+    .searchImg {
+        left: 11rem;
+        top: -1.85rem;
+        height: 2.4rem;
+    }
+
+    .avatarImg{
+        margin-right: -0.2rem;
+        height: 5.8rem;
+        margin-top: -1.4rem;
+    }
+
+    .rightMenu{
+        margin-right: -1.1rem;
+    }
+
+    .searchDiv{
+        margin-right: 0.8rem;
+    }
+
+    .bodyVideo{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 2048px;
+        width: 680px;
+    }
+
+    .video{
+        height: 28rem;
+        margin-left: 5.5rem;
+        width: 640px;
+    }
+
+    .video:nth-child(2){
+        margin-top: 0.5rem;
+    }
+
+    .video:nth-child(3){
+        margin-top: 0.7rem;
+    }
+
+    .video:nth-child(4){
+        margin-top: 0.8rem;
+    }
+
+    .videosDiv, .videoContent{
+        height: 2048px;
+    }
+
+    .widthClass{
+        margin-top: 0.84rem;
+        height: 18.7rem;
+        width: 36rem;
+        border-radius: 20px;
+    }
+
+    .videoImg{
+        width: 100%;
+        display: block;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 25px;
+    }
+
+    .time{
+        background-color: #000000;
+        mix-blend-mode: normal;
+        opacity: 0.3;
+        border-radius: 23px;
+        position: absolute;
+        left: 80.4%;
+        right: 1.2rem;
+        top: 77.5%;
+        bottom: 6.25%;
+    }
+    
+    .timeNumber{
+        color: #fff;
+        font-weight: 400;
+        font-size: 14px;
+        position: absolute;
+        left: 20%;
+        top: -21px;
+        right: 6%;
+        font-size: 28px;
+    }
+
+    .textViews{
+        width: 70%;
+        margin-top: 1.1rem;
+    }
+
+    .text{
+        margin-top: 1rem;
+    }
+
+    .text2{
+        margin-top: 1.25rem;
+    }
+    
+    .videoTextName{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 15px;
+        color: #C2C2C2;
+        letter-spacing: 0.3px;
+    }
+    
+    .textRight{
+        margin-top: 0.12rem;
+        margin-left: 0.7rem;
+        width: 10%;
+    }
+
+    .videoName{
+        font-weight: bold;
+        letter-spacing: 0.15px;
+        font-size: 33px;
+    }
+
+    .videoName2{
+        font-weight: bold;
+        letter-spacing: -0.1px;
+        font-size: 33px;
+    }
+
+    .videoText{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 15px;
+        color: #C2C2C2;
+        letter-spacing: 0.6px;
+    }
+    
+    .videoText2{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 15px;
+        color: #C2C2C2;
+        letter-spacing: 0.5px;
+        margin-left: -0.1rem;
+    }
+    
+    .videoText3{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 15px;
+        color: #C2C2C2;
+        letter-spacing: 3.9px;
+        margin-left: 0.4rem;
+    }
+
+    .videoTextName{
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        line-height: 15px;
+        color: #C2C2C2;
+        letter-spacing: 0.3px;
+    }
+
+    .textRight{
+        margin-top: 1.1rem;
+        margin-left: 0rem;
+        width: 10%;
+    }
+
+    .footer{
+        display: flex;
+    }
+
+    footer{
+        display: block;
+        position: absolute;
+        bottom: 1.6rem;
+    }
+
+    .footerHr{
+        margin-left: -0.5rem;
+        margin-bottom: 4rem;
+        width: 39.8rem;
+    }
+
+    .footerText2{
+        font-family: 'Mulish', sans-serif;
+        display: flex;
+        flex-direction: column;
+        color: #898989;
+        font-size: 20.5px;
+        letter-spacing: -0.2px;
+    }
+
+    .footerText3{
+        font-family: 'Mulish', sans-serif;
+        display: flex;
+        flex-direction: column;
+        color: #898989;
+        font-size: 20.5px;
+        letter-spacing: -0.2px;
+    }
+
+    .footerText4{
+        font-family: 'Mulish', sans-serif;
+        display: flex;
+        flex-direction: column;
+        color: #898989;
+        font-size: 20.5px;
+        letter-spacing: -0.2px;
+    }
+
+    .footerTextHome{
+        font-size: 20.5px;
+        color: #FF0000;
+        margin-left: 0.35em;
+    }
+
+    .footerTextDiv{
+        margin-left: 2.1rem;
+        margin-top: 0.5rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .footerTextDiv2{
+        margin-left: 2.2rem;
+        margin-top: 0.2rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .footerTextDiv3{
+        margin-left: 0.15rem;
+        margin-top: 0.5rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .footerTextDiv4{
+        margin-left: 0.85rem;
+        margin-top: 0.4rem;
+        margin-bottom: -0.3rem;
+    }
+
+    .imgFooter{
+        margin-top: -1.25rem;
+        width: 2.5rem;
+        margin-left: 3.05rem;
+        margin-bottom: -0.15rem;
+    }
+
+    .imgFooter2{
+        margin-top: -0.4rem;
+        width: 2rem;
+        margin-left: 3.8rem;
+    }
+
+    .imgFooter3{
+        margin-top: -0.7rem;
+        width: 2.3rem;
+        margin-left: 3.05rem;
+        margin-bottom: -0.15rem;
+    }
+
+    .imgFooter4{
+        margin-top: -0.2rem;
+        width: 2.5rem;
+        margin-left: 1.7rem;
+    }
+
+    .footerImgDiv{
+        margin-top: -0.7rem;
+    }
+
+    .footerImgDiv2{
+        margin-top: -1.8rem;
+    }
+
+    .footerImgDiv3{
+        margin-top: -1.25rem;
+    }
+
+    .footerImgDiv4{
+        margin-top: -1rem;
+    }
+
+    .divForFooter{
+        margin-left: 0rem;
+        margin-top: -0.5rem;
+    }
+
+    .divForFooter2{
+        margin-left: 3.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .divForFooter3{
+        margin-left: 3.5rem;
+        margin-top: -0.5rem;
+    }
+
+    .divForFooter4{
+        margin-left: 3.5rem;
+        margin-top: -1rem;
+    }
+
+    .body2{
+        display: flex;
+        overflow-x: hidden;
+        justify-content: space-between;
+        width: 640px;
+    }
+}
