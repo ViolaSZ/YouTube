@@ -566,6 +566,10 @@ color: #C2C2C2;
     letter-spacing: 0.3px;
 }
 
+.videoName2{
+    font-weight: bold;
+}
+
 .textRight{
     margin-top: 0.12rem;
     margin-left: 0.7rem;
@@ -596,318 +600,62 @@ color: #C2C2C2;
     width: 10%;
 }
 
-.profileInformation{
-    display: flex;
-    flex-direction: row;
-    margin-top: 5px;
-    justify-content: space-between;
-}
-
-.profileNavigation{
-    display: flex;
-    padding-left: 0;
-}
-
-.profileSubscribes{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-margin-top: 2px;
-margin-left: 15px;
-
-color: #C2C2C2;
-}
-
-.profileName{
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 33px;
-margin-top: 10px;
-margin-left: 15px;
-margin-bottom: 0px;
-
-color: #19202C;
-}
-
-.profileVideoName{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 34px;    
-    width: 70%;
-    color: #19202C; 
-    margin-left: 20px; 
-    margin-top: 5px;
-    margin-bottom: 0px;
-}
-
-.profileVideoText{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #000000;
-
-mix-blend-mode: normal;
-opacity: 0.6; 
-    margin-top: 5px;
-}
-
-.profileInformationRecommended{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 18px;
-line-height: 23px;
-margin-bottom: 5px;
-color: #19202C;
-}
-
-.upperText{
-    margin-top: 15px;
-    margin-left: 10px;
-}
-
-.profileInformationAside{
-    width: 20%;
-}
-
-.divForImg{
-    width: 90%;
-}
-
-.profileVideo{
-    margin-left: 20px;
-    margin-top: 5px;
-}
-
-.profileVideoViews{
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-color: #C2C2C2;
-margin-left: 20px;
-}
-
-.profileNavigation li{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 22px;
-line-height: 23px;
-margin-right: 40px;
-margin-bottom: 20px;
-color: #000000;
-}
-
-.profileNavigation .home{
-    font-family: 'Mulish';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 22px;
-    line-height: 23px;
-    color: #FF0000;
-    text-decoration: underline;
-}
-
-.divProfileVideoViews{
-    margin-top: 15px;
-}
-
-.recommendedChannelText{
-
-font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 20px;
-color: #C2C2C2;
-
-}
-
-.videoBlock{
-    width: 85%;
-}
-
-.videoView{
-    width: 75%;
-    margin: 10px 30px 5px 30px;
-}
-
-.videoName3{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 45px;
-margin-top: 8px;
-margin-bottom: 5px;
-color: #192646;
-}
-
-.videoParametrs{
-    display: flex;
-    width: 85%;
-    justify-content: end;
-}
-
-.videoParametrs img{
-    margin-left: 20px;
-}
-
-.marginHr{
-    margin-top: 10px;
-}
-
-.videoCharasteristic{
-    display: flex;
-    justify-content: space-between;
-}
-
-.videoViews3{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #C2C2C2;
-}
-
-.channelName{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 33px;
-color: #19202C;
-margin-bottom: 5px;
-}
-
-.videoDescription{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 22px;
-
-color: #000000;
-
-mix-blend-mode: normal;
-opacity: 0.6;
-}
-
-.videoDescriptionDiv{
-    margin-top: 15px;
-    margin-bottom: 15px;
-}
-
-.publishedText{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 13px;
-line-height: 16px;
-color: #C2C2C2;
-}
-
-.showMoreText{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 25px;
-color: #C2C2C2;
-}
-
-.nextText{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 36px;
-line-height: 45px;
-margin-bottom: 0px;
-color: #19202C;
-}
-
-.autoplayText{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 16px;
-line-height: 20px;
-letter-spacing: 1px;
-
-color: #19202C;
-}
-
-.asideVideoName{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 33px;
-color: #19202C;
-margin-top: 10px;
-margin-bottom: 10px;
-}
-
-.asideVideoView{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-color: #C2C2C2;
-}
-
-.asideVideoChannel{
-    font-family: 'Mulish';
-font-style: normal;
-font-weight: 400;
-font-size: 18px;
-line-height: 23px;
-
-text-align: right;
-
-color: #C2C2C2;
-}
-
-.channelAvatar{
-    width: 20%;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-.videoCharasteristic h4{
-    margin-top: 10px;
-}
-
-.autoplay{
-    display: flex;
-    margin-top: 20px;
-    width: 50%;
-    justify-content: space-between;
-}
-
-.asideVideo{
-    margin-top: 10px;
-}
-
-.asideVideosDiv{
-    margin-right: 20px;
-}
-
 footer{
     display: none;
+}
+
+@media screen and (max-width: 1300px) {
+    .videosDiv{
+        margin-left: 6rem;
+    }
+
+    .asideDiv{
+        width: 40%;
+    }
+
+    .searchImg{
+        left: 30rem;
+    }
+
+    .videoReccomended{
+        margin-right: 1rem;
+    }
+
+    .video{
+        margin-right: 1.85rem;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .searchImg{
+        left: 21rem;
+    }
+
+    .hideVideo{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .searchImg{
+        left: 13.5rem;
+    }
+
+    .hideVideo{
+        display: none;
+    }
+
+    .video{
+        margin-right: 2rem;
+    }
+
+    .asideDiv{
+        width: 50%;
+    }
+
+    .hideText{
+        display: none;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -917,8 +665,14 @@ footer{
         margin-top: -0.5rem;
     }
 
+    .avatar{
+        margin-right: 5rem;
+    }
+
     .header{
         height: 5rem;
+        width: 640px;
+
     }
 
     .leftMenu{
@@ -950,13 +704,13 @@ footer{
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
-        height: 2048px;
+        height: 100%;
         width: 680px;
     }
 
     .video{
         height: 28rem;
-        margin-left: 5.5rem;
+        margin-left: 6.5rem;
         width: 640px;
     }
 
@@ -973,7 +727,11 @@ footer{
     }
 
     .videosDiv, .videoContent{
-        height: 2048px;
+        height: 100%;
+    }
+
+    .videosDiv{
+        margin-left: -1rem;
     }
 
     .widthClass{
@@ -1036,12 +794,6 @@ footer{
         color: #C2C2C2;
         letter-spacing: 0.3px;
     }
-    
-    .textRight{
-        margin-top: 0.12rem;
-        margin-left: 0.7rem;
-        width: 10%;
-    }
 
     .videoName{
         font-weight: bold;
@@ -1103,14 +855,21 @@ footer{
         width: 10%;
     }
 
+    .textRight2{
+        margin-left: 17rem;
+        margin-top: 1.1rem;
+        width: 10%;
+    }
+
     .footer{
         display: flex;
     }
 
-    footer{
+    .footerDiv{
         display: block;
         position: absolute;
-        bottom: 1.6rem;
+        bottom: 0;
+        background-color: #fff;
     }
 
     .footerHr{
@@ -1243,5 +1002,6 @@ footer{
         overflow-x: hidden;
         justify-content: space-between;
         width: 640px;
+        position: relative;
     }
 }
